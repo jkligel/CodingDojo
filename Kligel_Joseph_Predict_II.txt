@@ -1,0 +1,11 @@
+Code Snippet 1
+--------------
+auntContactInfo    |    "Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345
+
+Code Snippet 2
+--------------
+frozen      |   "broccoli", "ice scream", "hashbrowns"
+
+Code Snippet 3
+--------------
+movieLibrary    |   "Bambi", "Beetlejuice", "Toy Story", "Zoro"
