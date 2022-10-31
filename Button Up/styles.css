@@ -1,0 +1,37 @@
+button {
+    display: block;
+    margin: 10px;
+    padding: 2.5px;
+}
+
+#container {
+    margin: 50px;
+}
+
+#search {
+    border-color: #24a3a4;
+    border-radius: 20px;
+    border-width: 2px;
+    color: #24a3a4;
+    padding: 1px;
+    width: 100px;
+}
+
+#plus {
+    background-color: #00d1b2;
+    border-radius: 50%;
+    border-width: 0;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+}
+
+#account {
+    background-color: #2b78e4;
+    box-shadow: 2.5px 2.5px black;
+    color: white;
+    height: 25px;
+    width: 125px;
+}
