@@ -1,0 +1,33 @@
+#container {
+    background-color: lightseagreen;
+    padding: 15px;
+    border-top: black thick ridge;
+}
+#container > h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container > div {
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+}
+#row1{
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+#row2 {
+    background-color: pink;
+    justify-content: space-evenly
+}
+#row3{
+    background-color: white;
+    justify-content: space-evenly;
+}
+img.octocat {
+    height: 200px;
+}
+footer > p{
+    text-align: center;
+}
