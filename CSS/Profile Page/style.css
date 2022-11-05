@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+/* ------------ Navigation Bar ------------- */
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#nav-links {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-btn {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 2.5px 10px 2.5px 10px;
+}
+
+/* ----------- Main ----------- */
+
+#main {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+/* ------------ User Card ---------- */
+
+.user-card-top {
+    height: 25%;
+    width: auto;
+    background-color: #17a2b8;
+}
+
+.avatar {
+    height: 100px;
+    margin: 20px 20px -50px 20px;
+}
+
+.user-card-bottom {
+    border: thick solid lightgray;
+    padding: 50px 20px 20px 20px;
+}
+
+.user-card-bottom h2, h3, p, a {
+    margin: 10px 0;
+}
+
+.user-card-bottom img {
+    margin: 0 5px 0 5px;
+    height: 15px;
+}
+
+/* ------------ Education Card ----------- */
+.ed-card-top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.ed-card-bottom {
+    border: thick solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;   
+}
+/* -------------- Request Connections Card --------------- */
+.request-card {
+    height: auto;
+}
+
+.request-card-top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.request-card-top p, h3 {
+    display: inline;
+}
+
+.request-card-top p {
+    border-radius: 100%;
+    background-color: gray;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.request-card-bottom {
+    border: thick solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.request-card-bottom div {
+    margin: 10px;
+}
+
+.request-card-bottom:first-child {
+    display: flex;
+}
+
+.request-card-bottom img, p {
+    display: inline;
+}
+
+.request-card-bottom .req-user {
+    height: 30px;
+    margin: 10px;
+}
+
+.req-buttons {
+    display: inline;
+    margin-left: auto;
+    justify-self: flex-end;
+}
+
+.request-card-bottom .req-btn {
+    height: 30px;
+}
+
+/* ------------- Your Connections Card ----------- */
+.connections-card {
+    height: auto;
+}
+
+.conn-card-top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.connections {
+    border: thick solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.conn-user img {
+    height: 30px;
+    margin: 10px;
+}
+
+.conn-card-bottom {
+    border: thick solid lightgray;
+    border-top: none;
+}
+

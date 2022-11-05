@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+/* ----------- Top Container ---------- */
+
+#top-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#nav-box {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-links {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#signout-btn {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 2.5px 10px 2.5px 10px;
+}
+
+/* ------------ Bottom Container ------------ */
+
+.bottom-card-border {
+    border: thick solid lightgray;
+}
+
+.top-card-params {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px 10px 20px;
+}
+
+.user-avatar {
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#bottom-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    /* margin: 10px; */
+    /* padding: 10px; */
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+/* --------------- User Card ------------------ */
+
+#top-user-card {
+    height: 25%;
+    width: auto;
+    background-color: #17a2b8;
+}
+
+#avatar {
+    height: 100px;
+    margin: 20px 20px -50px 20px;
+}
+
+#bottom-user-card {
+    padding: 50px 20px 20px 20px;
+}
+
+#bottom-user-card h2, h3, p, a {
+    display: block;
+    margin: 10px 0;
+}
+
+#bottom-user-card img {
+    margin: 0 5px 0 5px;
+    height: 15px;
+}
+
+/* ------------- Education Card --------------- */
+
+#education-card {
+    margin-top: 30px;
+}
+
+#bottom-ed-card {
+    padding: 20px;
+}
+
+#bottom-ed-card h3 {
+    color: grey;
+    margin-top: 5px;
+}
+
+/* ------------ Request Connections Card ------------- */
+
+#request-card {
+    margin-left: 30px;
+}
+
+.req-user *{
+    display: inline;
+}
+
+.req-user {
+    display: flex;
+    align-items: center;
+}
+
+.req-user p {
+    font-weight: bold;
+}
+
+.req-buttons {
+    position: absolute;
+    right: 275px;
+}
+
+.req-btn {
+    height: 30px;
+}
+
+#top-req-card span {
+    border-radius: 100%;
+    background-color: gray;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+/* ---------------- Your Connections Card --------------- */
+
+#conn-card{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.conn-user *{
+    display: inline;
+}
+
+.conn-user p {
+    font-weight: bold;
+}
+
+.conn-user {
+    display: flex;
+    align-items: center;
+}
+
+#connections {
+    border-bottom: 0;
+}
+
+#top-conn-card span {
+    border-radius: 100%;
+    background-color: gray;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+#bottom-conn-card a{
+    margin: 10px;
+}
