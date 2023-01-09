@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/Savin-NY.webp");
+    font-family: sans-serif;
+}
+
+/* ---------- Navigation Bar ---------- */
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-links {
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-btn {
+    background-color: #03C03C;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: black 3px 3px 3px;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 25%;
+}
+
+.dropbtn span {
+    font-size: 70%;
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    background-color: #333;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content > * {
+    padding: 10px 20px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+.dropdown:hover .dropdown-content, .dropdown-content > a {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+/* ------ Main Container below Navbar ------- */
+
+#main-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 2% 0;
+    width: 60%;
+}
+
+/* Columns */
+
+.col-small {
+    flex: 1;
+}
+
+.col-big {
+    flex: 2;
+    margin-right: 2%;
+}
+
+/* Cards */
+
+.card {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-body {
+    border: thick solid lightgray;
+    padding: 15px;
+}
+
+.card-body > ul > li {
+    list-style-type: none;
+}
+
+.card-body h4 {
+    color: gray;
+}
+/* User Card */
+
+#user-card {
+    line-height: 1.9;
+}
+
+#user-card > .card-header {
+    background-color: #03C03C;
+}
+
+#user-card > .card-body {
+    padding-top: 50px;
+}
+
+#avatar-img {
+    height: 100px;
+    margin: 20px 10px -50px;
+}
+
+#linkedin-icon {
+    height: 25px;
+}
+
+#github-icon {
+    height: 25px;
+    margin-left: 10px;
+}
+

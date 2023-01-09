@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar and Float Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="navbar">
+        <h1 id="nav-header">Profile</h1>
+
+
+        <ul id="nav-links">
+            <div class="dropdown">
+                <button class="dropbtn">Home<span>&#x25BC;</span></button>
+                <div class="dropdown-content">
+                    <a href="#user-card">Home</a>
+                    <a href="#skills-card">Skills</a>
+                    <a href="#experience-card">Experience</a>
+                    <a href="#education-card">Education</a>
+                    <a href="#projects-card">Projects</a>
+                </div>
+            </div>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><button id="nav-btn">Sign Out</button></li>
+        </ul>
+
+    </header>
+
+    <div id="main-container">
+
+        <div class="col-big">
+
+            <div id="user-card" class="card">
+
+                <div class="card-header">
+
+                    <img id="avatar-img" src="icons/user-circle.png" alt="User avatar">
+
+                </div>
+
+                <div class="card-body">
+                    <h2>Joseph Kligel</h2>
+                    <a href="https://linkedin.com/in/josephkligel">
+                        <img id="linkedin-icon" src="icons/LinkedIn_logo_initials.png" alt="Linkedin Icon">
+                    </a>
+                    <a href="https://github.com/jkligel?tab=repositories">
+                        <img id="github-icon" src="icons/GitHub-Logo.png" alt="GitHub Logo">
+                    </a>
+                    <p>Full-Stack Developer | Software Engineer | Front-End Developer</p>
+                </div>
+
+            </div>
+
+            <div id="experience-card" class="card">
+                <div class="card-header">
+                    <h3>Experience</h3>
+                </div>
+    
+                <div class="card-body">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h4>Oct 2022 - Jul 2023</h4>
+                    <p>Triple black belt in Python, MERN, Web-Development, Java, and SQL </p>
+                </div>
+    
+            </div>
+
+                <div id="projects-card" class="card">
+    
+                    <div class="card-header">
+                        <h3>Projects</h3>
+                    </div>
+        
+                    <div class="card-body">
+                        <h3>Placeholder</h3>
+                    </div>
+        
+                </div>
+    
+        </div>
+
+        <div class="col-small">
+
+            <div id="skills-card" class="card">
+                <div class="card-header">
+                    <h3>Skills</h3>
+                </div>
+    
+                <div class="card-body">
+                    <h3>Languages:</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                        <li>Nodejs</li>
+                        <li>SQL/MySQL/SQLite/Microsoft SQL</li>
+                    </ul>
+                    
+                    <br>
+                    
+                    <h3>Frameworks:</h3>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Pandas and Numpy</li>
+                        <li>React JS</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div id="education-card" class="card">
+
+                <div class="card-header">
+                    <h3>Education</h3>
+                </div>
+    
+                <div class="card-body">
+                    <h3>Master's Degree Computer Science</h3>
+                    <h4>Aug 2020 - Mar 2022</h4> 
+
+                    <h3>Bachelor's Degree Finance</h3>
+                    <h4>Aug 2016 - Dec 2018</h4>
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </div>
+    
+</body>
+</html>
